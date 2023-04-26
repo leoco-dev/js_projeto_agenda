@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 
 body {
-    background-color: #e7e7e7;
-    padding-top: 100px;
+    background-color: #fff6e485;
+    padding-top: 50px;
 }
 
 header {
@@ -17,12 +17,12 @@ header {
 }
 
 header img {
-    height: 36px;
-    margin-right: 16px;
+    height: 48px;
+    margin-right: 30px;
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -34,24 +34,29 @@ header h1 {
 
 form {
     display: flex;
-    max-width: 640px;
+    max-width: 900px;
     width: 100%;
     justify-content: space-between;
-    margin-bottom: 56px;
+    margin-bottom: 90px;
 }
 
 form input {
-    font-size: 24px;
+    font-size: 18px;
     background-color: #fff;
     border: none;
-    border-bottom: 2px solid #000;
-    padding: 8px;
+    border-bottom: 2px solid #59a1a5;
+    padding: 10px;
+    outline-style: none;
+}
+
+.nomestyle {
+width: 500px;
 }
 
 form button {
-    background-color: #009432;
+    background-color: #59a1a5;
     color: white;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     border: none;
     cursor: pointer;
@@ -69,29 +74,9 @@ table td {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-table td img {
-    height: 30px;
-}
-
 table th {
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.7);
     font-size: 24px;
     font-weight: bold;
     padding: 16px;
-}
-
-.resultado {
-    padding: 8px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #000;
-    border-radius: 3px;
-}
-
-.aprovado {
-    background-color: #009432;
-}
-
-.reprovado {
-    background-color: red;
 }
